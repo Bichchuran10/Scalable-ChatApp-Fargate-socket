@@ -23,3 +23,12 @@ on website load.
 - Users can type chat messages to the chat room.
 - A notification is sent to all users when a user joins or leaves
 the chatroom.
+
+
+
+#step-2
+
+docker build -t chat .
+docker run -d --name chat -p 3000:3000 chat
+
+check localhost 3000. it should be working 
